@@ -1,0 +1,68 @@
+header{
+    background-color: pink;
+    padding: 2em;
+
+    .logo{
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 2em 0;
+        cursor: pointer;
+    }
+
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-around;
+
+            li{
+                padding: 1em 5em;
+                list-style: none;
+                cursor: pointer;
+
+                a{
+                    font-weight: 900;
+                }
+            }
+
+            li:hover{
+                background-color: rgb(250, 171, 184);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header{
+    
+        .logo{
+            font-size: 1rem;
+        }
+    
+        nav{
+            ul{   
+                li{
+                    padding: 1em 3em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header{
+    
+        .logo{
+            font-size: .8rem;
+        }
+    
+        nav{
+            ul{   
+                flex-direction: column;
+                li{
+                    padding: 1em .2em;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.ofertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .texto{
+        width: 50%;
+        
+        h3{
+            font-size: 1.3rem;
+        }
+    }
+
+    .imagen{
+        img{
+            width: 400px;
+            height: 300px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .ofertas{
+        padding: 0 2em;
+
+        .texto{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .ofertas{
+        flex-direction: column-reverse;
+    
+        .texto{
+            text-align: center;
+
+            h3{
+                font-size: 1.2rem;
+            }
+
+            p{
+                font-size: 0.8rem;
+            }
+        }
+    
+        .imagen{
+            img{
+                width: 250px;
+                height: 150px;
+            }
+        }
+    }
+}

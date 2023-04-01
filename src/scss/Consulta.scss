@@ -1,0 +1,44 @@
+.consulta{
+    margin: 0em 20em 8em 20em;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        
+
+        input{
+            padding: 0.5em;
+            margin: 1em 0;
+        }
+
+        textarea{
+            resize: none;
+            padding: 0.5em;
+            margin: 1em 0;
+        }
+
+        button{
+            padding: 0.5em;
+            margin: 1em 0;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: gray;
+            color: black;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .consulta{
+        margin: 0em 10em 8em 10em;
+    }   
+}
+
+@media screen and (max-width: 425px) {
+    .consulta{
+        margin: 0em 4em 8em 4em;
+    } 
+}

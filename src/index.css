@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Courier New', Courier, monospace;
+  color: grey;
+}
+
+.container{
+  padding: 0 20em;
+  background-color: rgb(255, 244, 229);
+}
+
+a{
+  color: grey;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+  padding: 2em 0;
+}
+
+
+@media screen and (max-width:1440px) {
+  .container{
+    padding: 0;
+  }
+}
