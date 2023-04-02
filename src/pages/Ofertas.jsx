@@ -1,5 +1,6 @@
 import React from 'react'
 import '../scss/Ofertas.scss'
+import galletas from '../img/galletas.jpg'
 
 const Ofertas = () => {
   return (
@@ -12,7 +13,7 @@ const Ofertas = () => {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro vitae suscipit voluptatibus totam possimus natus omnis veniam, aliquid repellendus ab perferendis tenetur, incidunt expedita harum laboriosam, quisquam odio. Error, dignissimos.</p>
             </div>
             <div className="imagen">
-                <img src="tortas.jpg" alt="" />
+                <img src={galletas}  />
             </div>
         </div>
     </section>   

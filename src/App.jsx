@@ -4,6 +4,7 @@ import Categorias from './pages/Categorias'
 import Consulta from './pages/Consulta'
 import Footer from './pages/Footer'
 
+
 function App() {
 
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
+import tortas from '../img/tortas.jpg'
 
-const Categoria = ({imagen='tortas', categoria='Torta'}) => {
+const Categoria = ({categoria='Torta'}) => {
   return (
     <div className='categoria'>
         
@@ -8,7 +9,7 @@ const Categoria = ({imagen='tortas', categoria='Torta'}) => {
             <div className="texto">
                 <h4>{categoria}</h4>
             </div>
-            <img src={`${imagen}.jpg`} alt="torta" />
+            <img src={tortas} alt="torta" />
         </div>        
     </div>
   )
