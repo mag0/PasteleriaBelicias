@@ -3,6 +3,7 @@ import Ofertas from './pages/Ofertas'
 import Categorias from './pages/Categorias'
 import Consulta from './pages/Consulta'
 import Footer from './pages/Footer'
+import QuienSoy from './pages/QuienSoy'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Ofertas></Ofertas>
         <Categorias></Categorias>
+        <QuienSoy></QuienSoy>
         <Consulta></Consulta>
       </main>
       <Footer></Footer>

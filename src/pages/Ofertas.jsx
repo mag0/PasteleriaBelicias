@@ -9,7 +9,7 @@ const Ofertas = () => {
         <h2>Ofertas</h2>
         <div className="ofertas">
             <div className="texto">
-                <h3>Tortas</h3>
+                <h3>Galletitas de chocolate</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro vitae suscipit voluptatibus totam possimus natus omnis veniam, aliquid repellendus ab perferendis tenetur, incidunt expedita harum laboriosam, quisquam odio. Error, dignissimos.</p>
             </div>
             <div className="imagen">
